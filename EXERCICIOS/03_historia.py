@@ -8,7 +8,6 @@ p2 = "Ele era conhecido por sua curiosidade"
 p3 = "Um dia, enquanto explorava uma antiga biblioteca, Lucas encontrou um livro"
 p4 = "O livro ensinava a programar em Python e Lucas virou programador"
 p5 = "FIM"
-
 print(p1)
 input()
 print(p2)
