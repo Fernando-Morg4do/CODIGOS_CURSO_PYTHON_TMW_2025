@@ -4,29 +4,39 @@
 # Se o cliente pedir água com gás, será cobrado R$ 2.50
 # Ofereça a opção para comprar mais que uma garrafa.
 # Apresente o valor total no final da compra.
-aguanatural = 1.50
-aguagas = 2.50
-print("""Escolha e digite o número da sua opção:
-      
-    1 para Água Natural
-    2 para Água com Gás""")
 
-escolha = input("Digite a sua opção:")
-qtd = input("Digite a quantidade:")
+dic = {"1":[1,1.50,"Água Natural",],
+       "2":[2,2.50,"Água com Gás"],
+       }
 
-escolha = float(escolha)
-qtd = int(qtd)
+while True:
+    print("""Escolha entre as opções abaixo:
+             
+          Água Natural R$ 1,50 -> Digire 1
 
-if escolha == 1:
-    print("""
-          
-Você escolheu Água Natural""")
-elif escolha == 2:
-    print("""
-          
-Você escolheu Água com Gás, sua conta é R$""",aguagas)
-else:
-    print("""
+          Água com Gás R$ 2,50 -> digite 2
           
           
-Você Digitou uma opção INVÀLIDA !""")
+          """)
+    tipo = input("Entre com a opção desejada:  ")
+    if tipo == "1" or tipo == "2":
+        break
+    else:
+        print("Entre com uma opção valida!")
+
+while True:
+
+    try:
+        qtd = int(input("Informe a quantidade: "))
+        break
+    except ValueError : print(" Valor inválido!")
+
+preco = 0
+agua = ""
+tipo = int(tipo)
+
+for i in dic:
+    if tipo == dic[i][0]:
+        preco = qtd * dic[i][1]
+        agua = dic[i][-1]
+        print("Você escolheu",qtd," -> ",agua,"Sua conta é R$",preco)

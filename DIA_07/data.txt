@@ -1,0 +1,6 @@
+nome	idade	profissão
+Teo	32	Streamer
+Nah	35	Artesã
+Cláudio	42	Dev
+Kozato	22	ML-Engineer
+Senola	24	Dev
