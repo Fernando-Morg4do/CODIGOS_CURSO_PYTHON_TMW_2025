@@ -1,7 +1,7 @@
 #%%
 import random
 
-sorteio = 5#random.randint(1, 15)
+sorteio = random.randint(1, 15)
 count = 3
 num: int
 
