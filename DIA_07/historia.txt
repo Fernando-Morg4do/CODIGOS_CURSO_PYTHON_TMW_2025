@@ -1,0 +1,5 @@
+Era uma vez, em uma terra muito muito distante um menino que gostava de escrever codigos em Python.
+Esse menino tinha grande interesse em computação.
+Junto com a sua melhor amiga, que manjava muito mais que ele, conseguiu o seu primeiro projeto.
+Na verdade, essa amiga era uma hacker famosa e conhecida por suas habilidades incomparaveis.
+Aos longo dos anos, juntos, conseguiram decifrar diversos problemas no mundo da computação.
